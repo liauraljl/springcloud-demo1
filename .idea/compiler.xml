@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-provider-test" />
+        <module name="springcloud-consumer-test" />
+        <module name="biz-common" />
+        <module name="springcloud-eureka-server-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="biz-common" target="1.8" />
+      <module name="springcloud-consumer-test" target="1.8" />
+      <module name="springcloud-demo1" target="1.8" />
+      <module name="springcloud-eureka-server-test" target="1.8" />
+      <module name="springcloud-provider-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
